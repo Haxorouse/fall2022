@@ -18,7 +18,7 @@ def read_ships_file(path)
         len = len.to_i
         pos = Position.new(row, col)
         ship = Ship.new(pos, dir, len)
-        return nil unless board.add_ship(ship)
+        return false unless board.add_ship(ship)
     }
     return nil unless worked
     return board
