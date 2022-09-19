@@ -7,6 +7,7 @@ require_relative '../models/position'
 # If 5 valid ships added, return GameBoard; return nil otherwise
 def read_ships_file(path)
     board = GameBoard.new(10, 10)
+    ships_down = true
     worked = read_file_lines(path){ |line|
         vals = line.split(",")
         row = vals[0].tr("(", "")
@@ -18,9 +19,10 @@ def read_ships_file(path)
         len = len.to_i
         pos = Position.new(row, col)
         ship = Ship.new(pos, dir, len)
-        return false unless board.add_ship(ship)
+        #return false unless board.add_ship(ship)
+        ships_down = false unless board.add_ship(ship)
     }
-    return nil unless worked
+    return nil unless ships_down
     return board
 end
 
