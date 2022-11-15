@@ -1,5 +1,6 @@
 open List
 open Nfa
+open Sets
 
 (*********)
 (* Types *)
@@ -26,8 +27,46 @@ let fresh =
 (* Part 3: Regular Expressions *)
 (*******************************)
 
-let regexp_to_nfa (regexp: regexp_t) : (int, char) nfa_t =
-  failwith "unimplemented"
+let concatNfa (nfa1: (int, char) nfa_t) (nfa2: (int, char) nfa_t) : (int, char) nfa_t =
+  (*joins sigma of nfa1 and 2, uses q0 of nfa1 as q0, creates epsilon
+  transitions from fs of nfa1 to q0 of nfa2 uses fs of nfa2 as fs, 
+  joins delta of nfa1 and 2, joins qs of nfa1 and 2*)
+  let sigmaOut = insert_all nfa2.sigma nfa1.sigma in
+  let deltaTemp = insert_all nfa2.delta nfa1.delta in
+  let qsOut = insert_all nfa2.qs nfa1.qs in
+  let joinTrans = List.fold_left(fun out final -> (final, None, nfa2.q0)::out) [] nfa1.fs in
+  let deltaOut = insert_all joinTrans deltaTemp in
+  {sigma = sigmaOut; q0 = nfa1.q0; qs = qsOut; fs = nfa2.fs; delta = deltaOut};;
+
+let rec regexp_to_nfa (regex: regexp_t) : (int, char) nfa_t =
+  match regex with
+  |Empty_String -> let newF = fresh() in
+                   let newS = fresh() in
+    {sigma = []; q0 = newS; fs = [newF]; qs = [newS; newF]; delta = [(newS, None, newF)]}
+  |Char c -> let newF = fresh() in
+             let newS = fresh() in
+    {sigma = [c]; q0 = newS; fs = [newF]; qs = [newS; newF]; delta = [(newS, Some c, newF)]}
+  |Union (x, y) -> 
+    let nfaX = regexp_to_nfa x in
+    let nfaY = regexp_to_nfa y in
+    let newF = fresh() in
+    let newS = fresh() in
+    let xFinalTrans = List.fold_left(fun trans xFinal -> (xFinal, None, newF)::trans) [] nfaX.fs in
+    let yFinalTrans = List.fold_left(fun trans yFinal -> (yFinal, None, newF)::trans) [] nfaY.fs in
+    let finalTranss = insert_all xFinalTrans yFinalTrans in
+    let deltaComb = insert_all nfaX.delta nfaY.delta in
+    {sigma = insert_all nfaX.sigma nfaY.sigma; q0 = newS; fs = [newF]; qs = insert_all [newS;newF] (insert_all nfaX.qs nfaY.qs); delta = insert_all [(newS, None, nfaX.q0); (newS, None, nfaY.q0)] (insert_all deltaComb finalTranss)}
+  |Concat (a, b) ->
+     concatNfa (regexp_to_nfa a) (regexp_to_nfa b)
+  |Star reg -> 
+    let n = regexp_to_nfa reg in
+    let newF = fresh() in
+    let newS = fresh() in
+    let finalsToStart = List.fold_left(fun trans final -> (final, None, n.q0)::trans) [] n.fs in
+    let finalsToEnd = List.fold_left(fun trans final -> (final, None, newF)::trans) [] n.fs in
+    let deltaMinusStart = insert_all n.delta (insert_all finalsToStart finalsToEnd) in
+    {sigma = n.sigma; q0 = newS; fs = [newF]; qs = insert_all n.qs [newS;newF]; delta = insert_all [(newS, None, n.q0); (newS, None, newF);] deltaMinusStart};;
+
 
 (*****************************************************************)
 (* Below this point is parser code that YOU DO NOT NEED TO TOUCH *)
