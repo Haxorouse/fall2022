@@ -157,8 +157,8 @@ let tokenize input =
             raise (InvalidInputException s)
     in
     let out = scan 0 input in
-    let _ = print_endline input in
-    let _ = print_endline (string_of_list (fun a -> string_of_token a) out) in
+    (*let _ = print_endline input in
+    let _ = print_endline (string_of_list (fun a -> string_of_token a) out) in*)
     out;;
 
 

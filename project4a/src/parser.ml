@@ -224,11 +224,25 @@ and parseUnaryExpr toks =
 and parseFunctionCallExpr toks =
   let o1 = parsePrimaryExpr toks in
   match o1 with (md1, e1) -> 
-  if lookahead md1 = None then
-    o1
-  else 
-    let o2 = parsePrimaryExpr md1 in
-    match o2 with (md2, e2) -> (md2, FunctionCall(e1, e2))
+  let nextTok = lookahead md1 in
+  match nextTok with
+    | None -> o1
+    | Some Tok_Int n -> (
+      let o2 = parsePrimaryExpr md1 in
+      match o2 with (md2, e2) -> (md2, FunctionCall(e1, e2)))
+    | Some Tok_Bool b -> (
+      let o2 = parsePrimaryExpr md1 in
+      match o2 with (md2, e2) -> (md2, FunctionCall(e1, e2)))
+    | Some Tok_String s -> (
+      let o2 = parsePrimaryExpr md1 in
+      match o2 with (md2, e2) -> (md2, FunctionCall(e1, e2)))
+    | Some Tok_ID i -> (
+      let o2 = parsePrimaryExpr md1 in
+      match o2 with (md2, e2) -> (md2, FunctionCall(e1, e2)))
+    | Some Tok_RParen -> (
+      let o2 = parsePrimaryExpr md1 in
+      match o2 with (md2, e2) -> (md2, FunctionCall(e1, e2)))
+    | _ -> o1 
 and parsePrimaryExpr toks =
   let valTok = lookahead toks in 
   match valTok with
@@ -255,7 +269,8 @@ and parsePrimaryExpr toks =
       let md3 = match_token md2 Tok_LParen in
       (md3, e1)
     )
-    | _ -> raise (ParseError "bad match");;
+    | _ -> (
+      raise (ParseError ("bad match:" ^ (string_of_list (fun a -> string_of_token a) toks))));;
 (* Part 3: Parsing mutop *)
 
 let rec parse_mutop toks = failwith "unimplemented"
