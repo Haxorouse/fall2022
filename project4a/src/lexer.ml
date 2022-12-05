@@ -1,5 +1,9 @@
 open TokenTypes
 
+(* Part 1: Lexer - IMPLEMENT YOUR CODE BELOW *)
+
+let tokenize input = failwith "unimplemented"
+
 (*copy of print functions from utils to avoid dependency cycle*)
 
     let string_of_token (t : token) : string = match t with

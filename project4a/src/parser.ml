@@ -34,6 +34,8 @@ let rec lookahead_many (toks: token list) (n: int) =
 
 (* Part 2: Parsing expressions *)
 
+let rec parse_expr toks = failwith "unimplemented"
+
 exception ParseError of string
 
 let try_match (toks: token list) (tok: token) =
@@ -271,6 +273,7 @@ and parsePrimaryExpr toks =
     )
     | _ -> (
       raise (ParseError ("bad match:" ^ (string_of_list (fun a -> string_of_token a) toks))));;
+      
 (* Part 3: Parsing mutop *)
 
 let rec parse_mutop toks = failwith "unimplemented"
