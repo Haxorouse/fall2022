@@ -1,0 +1,17 @@
+2022-12-01T01:34:53+00:00 Celestrium#03 I: Start test public:2:public_mutop_simple_def_and_let.
+2022-12-01T01:34:53+00:00 Celestrium#03 E: Test public:2:public_mutop_simple_def_and_let exited with an error.
+2022-12-01T01:34:53+00:00 Celestrium#03 E: Failure("unimplemented") in test public:2:public_mutop_simple_def_and_let.
+2022-12-01T01:34:53+00:00 Celestrium#03 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-12-01T01:34:53+00:00 Celestrium#03 E: Called from Dune__exe__Public.public_mutop_simple_def_and_let in file "test/public/public.ml", line 20, characters 16-83
+2022-12-01T01:34:53+00:00 Celestrium#03 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-12-01T01:34:53+00:00 Celestrium#03 E: 
+2022-12-01T01:34:53+00:00 Celestrium#03 I: End test public:2:public_mutop_simple_def_and_let.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: Start test public:8:public_expr_minus_one.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: Test public:8:public_expr_minus_one is successful.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: End test public:8:public_expr_minus_one.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: Start test public:15:public_expr_simple_mult.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: Test public:15:public_expr_simple_mult is successful.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: End test public:15:public_expr_simple_mult.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: Start test public:22:public_expr_single_let.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: Test public:22:public_expr_single_let is successful.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: End test public:22:public_expr_single_let.

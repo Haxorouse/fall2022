@@ -1,0 +1,13 @@
+2022-12-01T01:34:53+00:00 Celestrium#08 I: Start test public:7:public_expr_let_fun.
+2022-12-01T01:34:53+00:00 Celestrium#08 I: Test public:7:public_expr_let_fun is successful.
+2022-12-01T01:34:53+00:00 Celestrium#08 I: End test public:7:public_expr_let_fun.
+2022-12-01T01:34:53+00:00 Celestrium#08 I: Start test public:19:public_expr_single_bool.
+2022-12-01T01:34:53+00:00 Celestrium#08 I: Test public:19:public_expr_single_bool is successful.
+2022-12-01T01:34:53+00:00 Celestrium#08 I: End test public:19:public_expr_single_bool.
+2022-12-01T01:34:53+00:00 Celestrium#08 I: Start test public:28:public_err_def_not_top_level.
+2022-12-01T01:34:53+00:00 Celestrium#08 E: Test public:28:public_err_def_not_top_level has failed.
+2022-12-01T01:34:53+00:00 Celestrium#08 E: Got Failure("unimplemented"), expected InvalidInputException in test public:28:public_err_def_not_top_level.
+2022-12-01T01:34:53+00:00 Celestrium#08 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-12-01T01:34:53+00:00 Celestrium#08 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-12-01T01:34:53+00:00 Celestrium#08 E: 
+2022-12-01T01:34:53+00:00 Celestrium#08 I: End test public:28:public_err_def_not_top_level.

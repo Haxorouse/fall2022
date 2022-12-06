@@ -1,0 +1,146 @@
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Runner: processes
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Chooser: simple
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration suite_name = "pbt"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration cache_filename = "/mnt/c/Users/Haxorouse/Documents/GitHub/fall2022/project4a/_build/default/test/pbt/oUnit-$(suite_name).cache"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration run_gc_full_major = "true"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration seed = "-1"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration display = "true"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration results_style_1_X = "false"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration testdata_dir = "none"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration health_check_interval = "1."
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration verbose = "false"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration chooser = "simple"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration output_html_dir = "none"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration processes_kill_period = "5."
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration runner = "processes"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration shards = "8"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration processes_grace_period = "5."
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration qcheck_verbose = "true"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration log_encoding = "utf-8"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration output_junit_file = "none"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration ci = "false"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration qcheck_long = "false"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration output_file = "/mnt/c/Users/Haxorouse/Documents/GitHub/fall2022/project4a/_build/default/test/pbt/oUnit-$(suite_name)-$(shard_id).log"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Using 8 workers maximum.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Starting worker number Celestrium#01.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#01 started.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Starting worker number Celestrium#02.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#02 started.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Starting worker number Celestrium#03.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#03 started.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Starting worker number Celestrium#04.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#04 started.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 4 tests running : pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 4 tests running: pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-12-01T01:34:53+00:00 Celestrium#01 I: Start test pbt:0:test_simple_def.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 4 tests running : pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 4 tests running: pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-12-01T01:34:53+00:00 Celestrium#01 I: 
+2022-12-01T01:34:53+00:00 Celestrium#01 I: law test_simple_def: 0 relevant cases (1 total)
+2022-12-01T01:34:53+00:00 Celestrium#01 I: 
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 4 tests running : pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 4 tests running: pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-12-01T01:34:53+00:00 Celestrium#01 E: 
+2022-12-01T01:34:53+00:00 Celestrium#01 E: test `test_simple_def` raised exception `Failure("unimplemented")` on `0`
+2022-12-01T01:34:53+00:00 Celestrium#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-12-01T01:34:53+00:00 Celestrium#01 E: Called from Dune__exe__Pbt.test_simple_def.(fun) in file "test/pbt/pbt.ml", line 14, characters 14-51
+2022-12-01T01:34:53+00:00 Celestrium#01 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-12-01T01:34:53+00:00 Celestrium#01 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-12-01T01:34:53+00:00 Celestrium#01 E: 
+2022-12-01T01:34:53+00:00 Celestrium#01 E: 
+2022-12-01T01:34:53+00:00 Celestrium#02 I: Start test pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 4 tests running : pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 4 tests running: pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-12-01T01:34:53+00:00 Celestrium#01 E: Test pbt:0:test_simple_def exited with an error.
+2022-12-01T01:34:53+00:00 Celestrium#01 E: test `test_simple_def` raised exception `Failure("unimplemented")` on `0`
+2022-12-01T01:34:53+00:00 Celestrium#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-12-01T01:34:53+00:00 Celestrium#01 E: Called from Dune__exe__Pbt.test_simple_def.(fun) in file "test/pbt/pbt.ml", line 14, characters 14-51
+2022-12-01T01:34:53+00:00 Celestrium#01 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-12-01T01:34:53+00:00 Celestrium#01 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-12-01T01:34:53+00:00 Celestrium#01 E:  in test pbt:0:test_simple_def.
+2022-12-01T01:34:53+00:00 Celestrium#01 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-12-01T01:34:53+00:00 Celestrium#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-12-01T01:34:53+00:00 Celestrium#01 E: 
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 4 tests running : pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 4 tests running: pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-12-01T01:34:53+00:00 Celestrium#01 I: End test pbt:0:test_simple_def.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: Start test pbt:2:test_sum_small_ints.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 4 tests running : pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 4 tests running: pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: Start test pbt:3:test_operator_precedence.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 3 tests running : pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 3 tests running: pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: 
+2022-12-01T01:34:53+00:00 Celestrium#03 I: law test_sum_small_ints: 1000 relevant cases (1000 total)
+2022-12-01T01:34:53+00:00 Celestrium#03 I: 
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 3 tests running : pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 3 tests running: pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: Test pbt:2:test_sum_small_ints is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 3 tests running : pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 3 tests running: pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: End test pbt:2:test_sum_small_ints.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 3 tests running : pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 3 tests running: pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints, pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 2 tests running : pbt:3:test_operator_precedence, pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 2 tests running: pbt:3:test_operator_precedence, pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: 
+2022-12-01T01:34:53+00:00 Celestrium#04 I: law test_operator_precedence: 1000 relevant cases (1000 total)
+2022-12-01T01:34:53+00:00 Celestrium#04 I: 
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 2 tests running : pbt:3:test_operator_precedence, pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 2 tests running: pbt:3:test_operator_precedence, pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: Test pbt:3:test_operator_precedence is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 2 tests running : pbt:3:test_operator_precedence, pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 2 tests running: pbt:3:test_operator_precedence, pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: End test pbt:3:test_operator_precedence.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 2 tests running : pbt:3:test_operator_precedence, pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 2 tests running: pbt:3:test_operator_precedence, pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 1 tests running : pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 1 tests running: pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#02 I: 
+2022-12-01T01:34:53+00:00 Celestrium#02 I: law test_simple_let: 1000 relevant cases (1000 total)
+2022-12-01T01:34:53+00:00 Celestrium#02 I: 
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 1 tests running : pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 1 tests running: pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#02 I: Test pbt:1:test_simple_let is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 1 tests running : pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 1 tests running: pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#02 I: End test pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 1 tests running : pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 1 tests running: pbt:1:test_simple_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 0 tests running: .
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#01 has ended.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#03 has ended.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#04 has ended.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#02 has ended.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Used 4 worker during test execution.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Run 1 tests with shard Celestrium#04.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Run 1 tests with shard Celestrium#03.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Run 1 tests with shard Celestrium#01.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Run 1 tests with shard Celestrium#02.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Check health of shard Celestrium#04, 5 times.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Check health of shard Celestrium#03, 9 times.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Check health of shard Celestrium#01, 13 times.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Check health of shard Celestrium#02, 1 times.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: ==============
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Summary:
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test pbt:1:test_simple_let is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test pbt:3:test_operator_precedence is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test pbt:2:test_sum_small_ints is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Test pbt:0:test_simple_def exited with an error.
+2022-12-01T01:34:53+00:00 Celestrium#00 E: test `test_simple_def` raised exception `Failure("unimplemented")` on `0`
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Called from Dune__exe__Pbt.test_simple_def.(fun) in file "test/pbt/pbt.ml", line 14, characters 14-51
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-12-01T01:34:53+00:00 Celestrium#00 E:  in test pbt:0:test_simple_def.
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-12-01T01:34:53+00:00 Celestrium#00 E: 
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Ran: 4 tests in: 0.12 seconds.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Cases: 4.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Tried: 4.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Errors: 1.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Failures: 0.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Skip: 0.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Todo: 0.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Timeout: 0.

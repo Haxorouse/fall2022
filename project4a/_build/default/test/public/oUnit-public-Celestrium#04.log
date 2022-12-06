@@ -1,0 +1,17 @@
+2022-12-01T01:34:53+00:00 Celestrium#04 I: Start test public:3:public_expr_add1.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: Test public:3:public_expr_add1 is successful.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: End test public:3:public_expr_add1.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: Start test public:11:public_rec_function_factorial.
+2022-12-01T01:34:53+00:00 Celestrium#04 E: Test public:11:public_rec_function_factorial exited with an error.
+2022-12-01T01:34:53+00:00 Celestrium#04 E: Failure("unimplemented") in test public:11:public_rec_function_factorial.
+2022-12-01T01:34:53+00:00 Celestrium#04 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-12-01T01:34:53+00:00 Celestrium#04 E: Called from Dune__exe__Public.public_rec_function_factorial in file "test/public/public.ml", line 92, characters 16-118
+2022-12-01T01:34:53+00:00 Celestrium#04 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-12-01T01:34:53+00:00 Celestrium#04 E: 
+2022-12-01T01:34:53+00:00 Celestrium#04 I: End test public:11:public_rec_function_factorial.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: Start test public:17:public_expr_simple_sum.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: Test public:17:public_expr_simple_sum is successful.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: End test public:17:public_expr_simple_sum.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: Start test public:24:public_expr_single_not.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: Test public:24:public_expr_single_not is successful.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: End test public:24:public_expr_single_not.

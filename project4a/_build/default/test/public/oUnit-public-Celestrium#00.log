@@ -1,0 +1,274 @@
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Runner: processes
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Chooser: simple
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration suite_name = "public"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration cache_filename = "/mnt/c/Users/Haxorouse/Documents/GitHub/fall2022/project4a/_build/default/test/public/oUnit-$(suite_name).cache"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration run_gc_full_major = "true"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration display = "true"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration results_style_1_X = "false"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration testdata_dir = "none"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration health_check_interval = "1."
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration verbose = "false"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration chooser = "simple"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration output_html_dir = "none"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration processes_kill_period = "5."
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration runner = "processes"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration shards = "8"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration processes_grace_period = "5."
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration log_encoding = "utf-8"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration output_junit_file = "none"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration ci = "false"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Configuration output_file = "/mnt/c/Users/Haxorouse/Documents/GitHub/fall2022/project4a/_build/default/test/public/oUnit-$(suite_name)-$(shard_id).log"
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Using 8 workers maximum.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Starting worker number Celestrium#01.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#01 started.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Starting worker number Celestrium#02.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#02 started.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Starting worker number Celestrium#03.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#03 started.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Starting worker number Celestrium#04.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#04 started.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Starting worker number Celestrium#05.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#05 started.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Starting worker number Celestrium#06.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#06 started.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Starting worker number Celestrium#07.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#07 started.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Starting worker number Celestrium#08.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#08 started.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 8 tests running: public:7:public_expr_let_fun, public:6:public_expr_let_if, public:5:public_expr_double_fun, public:4:public_expr_apply, public:3:public_expr_add1, public:2:public_mutop_simple_def_and_let, public:1:public_mutop_pi_def, public:0:public_nothing.
+2022-12-01T01:34:53+00:00 Celestrium#01 I: Start test public:0:public_nothing.
+2022-12-01T01:34:53+00:00 Celestrium#02 I: Start test public:1:public_mutop_pi_def.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: Start test public:2:public_mutop_simple_def_and_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 8 tests running: public:7:public_expr_let_fun, public:6:public_expr_let_if, public:5:public_expr_double_fun, public:4:public_expr_apply, public:3:public_expr_add1, public:2:public_mutop_simple_def_and_let, public:1:public_mutop_pi_def, public:0:public_nothing.
+2022-12-01T01:34:53+00:00 Celestrium#01 E: Test public:0:public_nothing exited with an error.
+2022-12-01T01:34:53+00:00 Celestrium#01 E: Failure("unimplemented") in test public:0:public_nothing.
+2022-12-01T01:34:53+00:00 Celestrium#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-12-01T01:34:53+00:00 Celestrium#01 E: Called from Dune__exe__Public.public_nothing in file "test/public/public.ml", line 9, characters 16-47
+2022-12-01T01:34:53+00:00 Celestrium#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-12-01T01:34:53+00:00 Celestrium#01 E: 
+2022-12-01T01:34:53+00:00 Celestrium#02 E: Test public:1:public_mutop_pi_def exited with an error.
+2022-12-01T01:34:53+00:00 Celestrium#02 E: Failure("unimplemented") in test public:1:public_mutop_pi_def.
+2022-12-01T01:34:53+00:00 Celestrium#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-12-01T01:34:53+00:00 Celestrium#02 E: Called from Dune__exe__Public.public_mutop_pi_def in file "test/public/public.ml", line 14, characters 16-61
+2022-12-01T01:34:53+00:00 Celestrium#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-12-01T01:34:53+00:00 Celestrium#02 E: 
+2022-12-01T01:34:53+00:00 Celestrium#03 E: Test public:2:public_mutop_simple_def_and_let exited with an error.
+2022-12-01T01:34:53+00:00 Celestrium#03 E: Failure("unimplemented") in test public:2:public_mutop_simple_def_and_let.
+2022-12-01T01:34:53+00:00 Celestrium#03 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-12-01T01:34:53+00:00 Celestrium#03 E: Called from Dune__exe__Public.public_mutop_simple_def_and_let in file "test/public/public.ml", line 20, characters 16-83
+2022-12-01T01:34:53+00:00 Celestrium#03 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-12-01T01:34:53+00:00 Celestrium#03 E: 
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 8 tests running: public:7:public_expr_let_fun, public:6:public_expr_let_if, public:5:public_expr_double_fun, public:4:public_expr_apply, public:3:public_expr_add1, public:2:public_mutop_simple_def_and_let, public:1:public_mutop_pi_def, public:0:public_nothing.
+2022-12-01T01:34:53+00:00 Celestrium#01 I: End test public:0:public_nothing.
+2022-12-01T01:34:53+00:00 Celestrium#02 I: End test public:1:public_mutop_pi_def.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: End test public:2:public_mutop_simple_def_and_let.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: Start test public:3:public_expr_add1.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 8 tests running: public:7:public_expr_let_fun, public:6:public_expr_let_if, public:5:public_expr_double_fun, public:4:public_expr_apply, public:3:public_expr_add1, public:2:public_mutop_simple_def_and_let, public:1:public_mutop_pi_def, public:0:public_nothing.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: Test public:3:public_expr_add1 is successful.
+2022-12-01T01:34:53+00:00 Celestrium#05 I: Start test public:4:public_expr_apply.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 8 tests running: public:10:public_expr_sub1, public:9:public_expr_nested_let, public:8:public_expr_minus_one, public:7:public_expr_let_fun, public:6:public_expr_let_if, public:5:public_expr_double_fun, public:4:public_expr_apply, public:3:public_expr_add1.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: End test public:3:public_expr_add1.
+2022-12-01T01:34:53+00:00 Celestrium#05 I: Test public:4:public_expr_apply is successful.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: Start test public:8:public_expr_minus_one.
+2022-12-01T01:34:53+00:00 Celestrium#02 I: Start test public:9:public_expr_nested_let.
+2022-12-01T01:34:53+00:00 Celestrium#01 I: Start test public:10:public_expr_sub1.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 8 tests running: public:10:public_expr_sub1, public:9:public_expr_nested_let, public:8:public_expr_minus_one, public:7:public_expr_let_fun, public:6:public_expr_let_if, public:5:public_expr_double_fun, public:4:public_expr_apply, public:3:public_expr_add1.
+2022-12-01T01:34:53+00:00 Celestrium#05 I: End test public:4:public_expr_apply.
+2022-12-01T01:34:53+00:00 Celestrium#06 I: Start test public:5:public_expr_double_fun.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: Test public:8:public_expr_minus_one is successful.
+2022-12-01T01:34:53+00:00 Celestrium#02 I: Test public:9:public_expr_nested_let is successful.
+2022-12-01T01:34:53+00:00 Celestrium#01 I: Test public:10:public_expr_sub1 is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 8 tests running: public:11:public_rec_function_factorial, public:10:public_expr_sub1, public:9:public_expr_nested_let, public:8:public_expr_minus_one, public:7:public_expr_let_fun, public:6:public_expr_let_if, public:5:public_expr_double_fun, public:4:public_expr_apply.
+2022-12-01T01:34:53+00:00 Celestrium#06 I: Test public:5:public_expr_double_fun is successful.
+2022-12-01T01:34:53+00:00 Celestrium#07 I: Start test public:6:public_expr_let_if.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: End test public:8:public_expr_minus_one.
+2022-12-01T01:34:53+00:00 Celestrium#02 I: End test public:9:public_expr_nested_let.
+2022-12-01T01:34:53+00:00 Celestrium#01 I: End test public:10:public_expr_sub1.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: Start test public:11:public_rec_function_factorial.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 8 tests running: public:12:public_expr_simple_equal, public:11:public_rec_function_factorial, public:10:public_expr_sub1, public:9:public_expr_nested_let, public:8:public_expr_minus_one, public:7:public_expr_let_fun, public:6:public_expr_let_if, public:5:public_expr_double_fun.
+2022-12-01T01:34:53+00:00 Celestrium#06 I: End test public:5:public_expr_double_fun.
+2022-12-01T01:34:53+00:00 Celestrium#07 I: Test public:6:public_expr_let_if is successful.
+2022-12-01T01:34:53+00:00 Celestrium#08 I: Start test public:7:public_expr_let_fun.
+2022-12-01T01:34:53+00:00 Celestrium#04 E: Test public:11:public_rec_function_factorial exited with an error.
+2022-12-01T01:34:53+00:00 Celestrium#04 E: Failure("unimplemented") in test public:11:public_rec_function_factorial.
+2022-12-01T01:34:53+00:00 Celestrium#04 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-12-01T01:34:53+00:00 Celestrium#04 E: Called from Dune__exe__Public.public_rec_function_factorial in file "test/public/public.ml", line 92, characters 16-118
+2022-12-01T01:34:53+00:00 Celestrium#04 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-12-01T01:34:53+00:00 Celestrium#04 E: 
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 8 tests running: public:15:public_expr_simple_mult, public:14:public_expr_simple_div, public:13:public_expr_simple_concat, public:12:public_expr_simple_equal, public:11:public_rec_function_factorial, public:7:public_expr_let_fun, public:6:public_expr_let_if, public:5:public_expr_double_fun.
+2022-12-01T01:34:53+00:00 Celestrium#07 I: End test public:6:public_expr_let_if.
+2022-12-01T01:34:53+00:00 Celestrium#08 I: Test public:7:public_expr_let_fun is successful.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: End test public:11:public_rec_function_factorial.
+2022-12-01T01:34:53+00:00 Celestrium#05 I: Start test public:12:public_expr_simple_equal.
+2022-12-01T01:34:53+00:00 Celestrium#02 I: Start test public:14:public_expr_simple_div.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 8 tests running: public:16:public_expr_simple_sub, public:15:public_expr_simple_mult, public:14:public_expr_simple_div, public:13:public_expr_simple_concat, public:12:public_expr_simple_equal, public:11:public_rec_function_factorial, public:7:public_expr_let_fun, public:6:public_expr_let_if.
+2022-12-01T01:34:53+00:00 Celestrium#08 I: End test public:7:public_expr_let_fun.
+2022-12-01T01:34:53+00:00 Celestrium#05 I: Test public:12:public_expr_simple_equal is successful.
+2022-12-01T01:34:53+00:00 Celestrium#01 I: Start test public:13:public_expr_simple_concat.
+2022-12-01T01:34:53+00:00 Celestrium#02 I: Test public:14:public_expr_simple_div is successful.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: Start test public:15:public_expr_simple_mult.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 8 tests running: public:18:public_expr_single_and, public:17:public_expr_simple_sum, public:16:public_expr_simple_sub, public:15:public_expr_simple_mult, public:14:public_expr_simple_div, public:13:public_expr_simple_concat, public:12:public_expr_simple_equal, public:7:public_expr_let_fun.
+2022-12-01T01:34:53+00:00 Celestrium#05 I: End test public:12:public_expr_simple_equal.
+2022-12-01T01:34:53+00:00 Celestrium#01 I: Test public:13:public_expr_simple_concat is successful.
+2022-12-01T01:34:53+00:00 Celestrium#02 I: End test public:14:public_expr_simple_div.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: Test public:15:public_expr_simple_mult is successful.
+2022-12-01T01:34:53+00:00 Celestrium#06 I: Start test public:16:public_expr_simple_sub.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: Start test public:17:public_expr_simple_sum.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 8 tests running: public:19:public_expr_single_bool, public:18:public_expr_single_and, public:17:public_expr_simple_sum, public:16:public_expr_simple_sub, public:15:public_expr_simple_mult, public:14:public_expr_simple_div, public:13:public_expr_simple_concat, public:12:public_expr_simple_equal.
+2022-12-01T01:34:53+00:00 Celestrium#01 I: End test public:13:public_expr_simple_concat.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: End test public:15:public_expr_simple_mult.
+2022-12-01T01:34:53+00:00 Celestrium#06 I: Test public:16:public_expr_simple_sub is successful.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: Test public:17:public_expr_simple_sum is successful.
+2022-12-01T01:34:53+00:00 Celestrium#07 I: Start test public:18:public_expr_single_and.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 8 tests running: public:21:public_expr_single_if, public:20:public_expr_single_fun, public:19:public_expr_single_bool, public:18:public_expr_single_and, public:17:public_expr_simple_sum, public:16:public_expr_simple_sub, public:15:public_expr_simple_mult, public:13:public_expr_simple_concat.
+2022-12-01T01:34:53+00:00 Celestrium#06 I: End test public:16:public_expr_simple_sub.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: End test public:17:public_expr_simple_sum.
+2022-12-01T01:34:53+00:00 Celestrium#07 I: Test public:18:public_expr_single_and is successful.
+2022-12-01T01:34:53+00:00 Celestrium#08 I: Start test public:19:public_expr_single_bool.
+2022-12-01T01:34:53+00:00 Celestrium#02 I: Start test public:20:public_expr_single_fun.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 8 tests running: public:23:public_expr_single_notequal, public:22:public_expr_single_let, public:21:public_expr_single_if, public:20:public_expr_single_fun, public:19:public_expr_single_bool, public:18:public_expr_single_and, public:17:public_expr_simple_sum, public:16:public_expr_simple_sub.
+2022-12-01T01:34:53+00:00 Celestrium#07 I: End test public:18:public_expr_single_and.
+2022-12-01T01:34:53+00:00 Celestrium#08 I: Test public:19:public_expr_single_bool is successful.
+2022-12-01T01:34:53+00:00 Celestrium#02 I: Test public:20:public_expr_single_fun is successful.
+2022-12-01T01:34:53+00:00 Celestrium#05 I: Start test public:21:public_expr_single_if.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 8 tests running: public:25:public_expr_single_number, public:24:public_expr_single_not, public:23:public_expr_single_notequal, public:22:public_expr_single_let, public:21:public_expr_single_if, public:20:public_expr_single_fun, public:19:public_expr_single_bool, public:18:public_expr_single_and.
+2022-12-01T01:34:53+00:00 Celestrium#08 I: End test public:19:public_expr_single_bool.
+2022-12-01T01:34:53+00:00 Celestrium#02 I: End test public:20:public_expr_single_fun.
+2022-12-01T01:34:53+00:00 Celestrium#05 I: Test public:21:public_expr_single_if is successful.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: Start test public:22:public_expr_single_let.
+2022-12-01T01:34:53+00:00 Celestrium#01 I: Start test public:23:public_expr_single_notequal.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: Start test public:24:public_expr_single_not.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 8 tests running: public:26:public_expr_single_or, public:25:public_expr_single_number, public:24:public_expr_single_not, public:23:public_expr_single_notequal, public:22:public_expr_single_let, public:21:public_expr_single_if, public:20:public_expr_single_fun, public:19:public_expr_single_bool.
+2022-12-01T01:34:53+00:00 Celestrium#05 I: End test public:21:public_expr_single_if.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: Test public:22:public_expr_single_let is successful.
+2022-12-01T01:34:53+00:00 Celestrium#01 I: Test public:23:public_expr_single_notequal is successful.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: Test public:24:public_expr_single_not is successful.
+2022-12-01T01:34:53+00:00 Celestrium#06 I: Start test public:25:public_expr_single_number.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 8 tests running: public:28:public_err_def_not_top_level, public:27:public_expr_single_string, public:26:public_expr_single_or, public:25:public_expr_single_number, public:24:public_expr_single_not, public:23:public_expr_single_notequal, public:22:public_expr_single_let, public:21:public_expr_single_if.
+2022-12-01T01:34:53+00:00 Celestrium#03 I: End test public:22:public_expr_single_let.
+2022-12-01T01:34:53+00:00 Celestrium#01 I: End test public:23:public_expr_single_notequal.
+2022-12-01T01:34:53+00:00 Celestrium#04 I: End test public:24:public_expr_single_not.
+2022-12-01T01:34:53+00:00 Celestrium#06 I: Test public:25:public_expr_single_number is successful.
+2022-12-01T01:34:53+00:00 Celestrium#07 I: Start test public:26:public_expr_single_or.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 8 tests running : public:29:public_err_mutop_nested_def, public:28:public_err_def_not_top_level, public:27:public_expr_single_string, public:26:public_expr_single_or, public:25:public_expr_single_number, public:24:public_expr_single_not, public:23:public_expr_single_notequal, public:22:public_expr_single_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 8 tests running: public:29:public_err_mutop_nested_def, public:28:public_err_def_not_top_level, public:27:public_expr_single_string, public:26:public_expr_single_or, public:25:public_expr_single_number, public:24:public_expr_single_not, public:23:public_expr_single_notequal, public:22:public_expr_single_let.
+2022-12-01T01:34:53+00:00 Celestrium#06 I: End test public:25:public_expr_single_number.
+2022-12-01T01:34:53+00:00 Celestrium#07 I: Test public:26:public_expr_single_or is successful.
+2022-12-01T01:34:53+00:00 Celestrium#02 I: Start test public:27:public_expr_single_string.
+2022-12-01T01:34:53+00:00 Celestrium#08 I: Start test public:28:public_err_def_not_top_level.
+2022-12-01T01:34:53+00:00 Celestrium#05 I: Start test public:29:public_err_mutop_nested_def.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 5 tests running : public:29:public_err_mutop_nested_def, public:28:public_err_def_not_top_level, public:27:public_expr_single_string, public:26:public_expr_single_or, public:25:public_expr_single_number.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 5 tests running: public:29:public_err_mutop_nested_def, public:28:public_err_def_not_top_level, public:27:public_expr_single_string, public:26:public_expr_single_or, public:25:public_expr_single_number.
+2022-12-01T01:34:53+00:00 Celestrium#07 I: End test public:26:public_expr_single_or.
+2022-12-01T01:34:53+00:00 Celestrium#02 I: Test public:27:public_expr_single_string is successful.
+2022-12-01T01:34:53+00:00 Celestrium#08 E: Test public:28:public_err_def_not_top_level has failed.
+2022-12-01T01:34:53+00:00 Celestrium#08 E: Got Failure("unimplemented"), expected InvalidInputException in test public:28:public_err_def_not_top_level.
+2022-12-01T01:34:53+00:00 Celestrium#08 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-12-01T01:34:53+00:00 Celestrium#08 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-12-01T01:34:53+00:00 Celestrium#08 E: 
+2022-12-01T01:34:53+00:00 Celestrium#05 E: Test public:29:public_err_mutop_nested_def has failed.
+2022-12-01T01:34:53+00:00 Celestrium#05 E: Got Failure("unimplemented"), expected InvalidInputException in test public:29:public_err_mutop_nested_def.
+2022-12-01T01:34:53+00:00 Celestrium#05 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-12-01T01:34:53+00:00 Celestrium#05 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-12-01T01:34:53+00:00 Celestrium#05 E: 
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 4 tests running : public:29:public_err_mutop_nested_def, public:28:public_err_def_not_top_level, public:27:public_expr_single_string, public:26:public_expr_single_or.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 4 tests running: public:29:public_err_mutop_nested_def, public:28:public_err_def_not_top_level, public:27:public_expr_single_string, public:26:public_expr_single_or.
+2022-12-01T01:34:53+00:00 Celestrium#02 I: End test public:27:public_expr_single_string.
+2022-12-01T01:34:53+00:00 Celestrium#08 I: End test public:28:public_err_def_not_top_level.
+2022-12-01T01:34:53+00:00 Celestrium#05 I: End test public:29:public_err_mutop_nested_def.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Still 3 tests running : public:29:public_err_mutop_nested_def, public:28:public_err_def_not_top_level, public:27:public_expr_single_string.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 3 tests running: public:29:public_err_mutop_nested_def, public:28:public_err_def_not_top_level, public:27:public_expr_single_string.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: 0 tests running: .
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#03 has ended.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#01 has ended.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#04 has ended.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#06 has ended.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#07 has ended.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#02 has ended.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#08 has ended.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Worker Celestrium#05 has ended.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Used 8 worker during test execution.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Run 4 tests with shard Celestrium#04.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Run 3 tests with shard Celestrium#06.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Run 3 tests with shard Celestrium#07.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Run 4 tests with shard Celestrium#03.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Run 4 tests with shard Celestrium#01.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Run 4 tests with shard Celestrium#05.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Run 5 tests with shard Celestrium#02.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Run 3 tests with shard Celestrium#08.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Check health of shard Celestrium#04, 4 times.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Check health of shard Celestrium#06, 3 times.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Check health of shard Celestrium#07, 2 times.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Check health of shard Celestrium#03, 4 times.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Check health of shard Celestrium#01, 4 times.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Check health of shard Celestrium#05, 1 times.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Check health of shard Celestrium#02, 1 times.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Check health of shard Celestrium#08, 1 times.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: ==============
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Summary:
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Test public:29:public_err_mutop_nested_def has failed.
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Got Failure("unimplemented"), expected InvalidInputException in test public:29:public_err_mutop_nested_def.
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-12-01T01:34:53+00:00 Celestrium#00 E: 
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Test public:28:public_err_def_not_top_level has failed.
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Got Failure("unimplemented"), expected InvalidInputException in test public:28:public_err_def_not_top_level.
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-12-01T01:34:53+00:00 Celestrium#00 E: 
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:27:public_expr_single_string is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:26:public_expr_single_or is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:25:public_expr_single_number is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:24:public_expr_single_not is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:23:public_expr_single_notequal is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:22:public_expr_single_let is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:21:public_expr_single_if is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:20:public_expr_single_fun is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:19:public_expr_single_bool is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:18:public_expr_single_and is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:17:public_expr_simple_sum is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:16:public_expr_simple_sub is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:15:public_expr_simple_mult is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:13:public_expr_simple_concat is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:14:public_expr_simple_div is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:12:public_expr_simple_equal is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:7:public_expr_let_fun is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Test public:11:public_rec_function_factorial exited with an error.
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Failure("unimplemented") in test public:11:public_rec_function_factorial.
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Called from Dune__exe__Public.public_rec_function_factorial in file "test/public/public.ml", line 92, characters 16-118
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-12-01T01:34:53+00:00 Celestrium#00 E: 
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:6:public_expr_let_if is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:5:public_expr_double_fun is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:10:public_expr_sub1 is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:9:public_expr_nested_let is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:8:public_expr_minus_one is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:4:public_expr_apply is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Test public:3:public_expr_add1 is successful.
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Test public:2:public_mutop_simple_def_and_let exited with an error.
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Failure("unimplemented") in test public:2:public_mutop_simple_def_and_let.
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Called from Dune__exe__Public.public_mutop_simple_def_and_let in file "test/public/public.ml", line 20, characters 16-83
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-12-01T01:34:53+00:00 Celestrium#00 E: 
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Test public:1:public_mutop_pi_def exited with an error.
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Failure("unimplemented") in test public:1:public_mutop_pi_def.
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Called from Dune__exe__Public.public_mutop_pi_def in file "test/public/public.ml", line 14, characters 16-61
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-12-01T01:34:53+00:00 Celestrium#00 E: 
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Test public:0:public_nothing exited with an error.
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Failure("unimplemented") in test public:0:public_nothing.
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Called from Dune__exe__Public.public_nothing in file "test/public/public.ml", line 9, characters 16-47
+2022-12-01T01:34:53+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-12-01T01:34:53+00:00 Celestrium#00 E: 
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Ran: 30 tests in: 0.15 seconds.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Cases: 30.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Tried: 30.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Errors: 4.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Failures: 2.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Skip: 0.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Todo: 0.
+2022-12-01T01:34:53+00:00 Celestrium#00 I: Timeout: 0.

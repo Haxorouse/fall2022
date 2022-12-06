@@ -1,6 +1,0 @@
-2022-10-28T03:26:23+00:00 Celestrium#06 I: Start test public:5:str_to_nfa.
-2022-10-28T03:26:23+00:00 Celestrium#06 I: Test public:5:str_to_nfa is successful.
-2022-10-28T03:26:23+00:00 Celestrium#06 I: End test public:5:str_to_nfa.
-2022-10-28T03:26:23+00:00 Celestrium#06 I: Start test public:8:nfa_new_finals.
-2022-10-28T03:26:23+00:00 Celestrium#06 I: Test public:8:nfa_new_finals is successful.
-2022-10-28T03:26:23+00:00 Celestrium#06 I: End test public:8:nfa_new_finals.
